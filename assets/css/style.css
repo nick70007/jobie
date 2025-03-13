@@ -134,7 +134,7 @@ header {
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 99;
+    z-index: 999;
 }
 header.fixed-header {
     padding: 15px 0px;

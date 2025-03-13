@@ -198,7 +198,7 @@
 	    bottom: 0px;
 	    left: 0px;
 	    right: 0px;
-	    z-index: 1;
+	    z-index: 999;
 	}
 	header .navbar-toggler {
         padding: 0px;
@@ -236,11 +236,14 @@
 	    font-size: 16px;
 	}
 	.responsive-btn {
-	    position: absolute;
+	    position: fixed;
 	    bottom: 15px;
 	    left: 0px;
 	    right: 0px;
 	    padding: 0px 15px;
+	}
+	body.show .h--right {
+	    filter: blur(11px);
 	}
 	.re-header {
 	    border-bottom: 1px solid rgb(240 242 250 / 24%);
