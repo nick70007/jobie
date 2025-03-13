@@ -1,0 +1,486 @@
+@media screen and (max-width: 767px){
+	.mb-24 {
+	    margin-bottom: 15px;
+	}
+	.d-flex {
+		flex-wrap: wrap;
+	}
+	.page-padding {
+	    padding: 50px 0px;
+	}
+	.page-title > h2,
+	.hiring-title h2 {
+	    font-size: 38px;
+	}
+	.page-title > p,
+	.faq-box-list .content > p,
+	.hiring-title p {
+	    font-size: 14px;
+	}
+	header {
+	    padding: 15px 0px 0px;
+	}
+	.h--right > ul {
+	    display: none !important;
+	}
+	.h--main > .logo img {
+	    max-width: 120px;
+	}
+	.hero-text h1 {
+	    font-size: 46px;
+	}
+	.h--center .navbar {
+	    max-height: calc(100vh - 180px);
+	    overflow-y: auto;
+	}
+	.hero-text > p,
+	.hero-text .hero-rate,
+	.hiring-text > p {
+		font-size: 16px;
+	}
+	.hero-text > p {
+	    margin-bottom: 20px;
+	}
+	.hiring-software .page-title h2 {
+		font-size: 34px;
+	}
+	.software-main .hiring-box {
+	    flex-wrap: wrap;
+	    gap: 30px;
+	    margin-bottom: 30px;
+	}
+	.hiring-main {
+	    padding: 40px;
+	}
+	.hiring-box .hiring-media {
+	    order: 1;
+	}
+	.hiring-box .hiring-text {
+	    order: 2;
+	}
+	.hiring-text h2 {
+	    font-size: 28px;
+	}
+	.hiring-text > ul > li {
+	    font-size: 14px;
+	}
+	.statstic-card {
+	    padding: 20px 20px;
+	    gap: 15px;
+	    flex-wrap: wrap;
+	}
+	.statstic-box > p {
+	    font-size: 16px;
+	    margin-bottom: 15px;
+	}
+	.statstic-box > h3 {
+	    font-size: 32px;
+	}
+	.footer-copyright {
+	    padding: 30px 0px;
+	}
+	.f-logo img {
+	    max-width: 100px;
+	}
+	.hiring-software,
+	.statstic,
+	.team {
+	    padding-bottom: 0px;
+	}
+}
+@media screen and (max-width: 575px){
+	.hero {
+        padding: 100px 0px 0px;
+    }
+	.hero-text h1 {
+        font-size: 32px;
+    }
+    .hiring-software .page-title h2,
+    .page-title > h2, 
+    .hiring-title h2 {
+        font-size: 28px;
+    }
+    .hiring-text h2 {
+	    font-size: 22px;
+	}
+	.hero-text > p, 
+	.hero-text .hero-rate, 
+	.hiring-text > p,
+	.statstic-box > p {
+        font-size: 14px;
+    }
+    .hiring-main {
+        padding: 20px;
+    }
+    .statstic-box > h3 {
+        font-size: 26px;
+    }
+    .faq-box-list > a {
+	    line-height: normal;
+	}
+	.faq-box-list {
+	    padding: 14px 14px;
+	}
+    .faq-main {
+	    padding: 20px;
+	}
+	.f-top-text {
+	    gap: 15px;
+	}
+	.copiright-text {
+	    display: block !important;
+	    text-align: center;
+	}
+	.copiright-text > p {
+	    font-size: 14px;
+	}
+	.copiright-text .f-social {
+	    justify-content: center;
+	    margin-top: 15px;
+	    gap: 20px;
+	}
+	.f-social a > svg {
+	    max-width: 20px;
+	    height: auto;
+	}
+	.f-top-text > .f-top-left {
+	    flex-wrap: nowrap;
+	}
+	.footer-top .f-top-right {
+	    display: none;
+	}
+}
+@media screen and (min-width: 576px) {
+	.f-email {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+	.f-top-right > a {
+		font-size: 15px;
+	}
+	.copiright-text > p {
+	    font-size: 15px;
+	}
+	.f-social > a > svg {
+	    max-width: 20px;
+	    height: auto;
+	}
+}
+@media screen and (max-width: 479px) {
+	.hero-form .form-control {
+	    width: 100%;
+	}
+	.hero-form .btn-secondary {
+	    margin: 0px auto;
+	}
+	.f-main {
+	    gap: 30px;
+	}
+}
+@media screen and (max-width: 991px) {
+	body.show {
+	    overflow: hidden;
+	}
+	body.show .navbar-toggler {
+	    opacity: 0;
+	}
+	body.show::before {
+	    content: "";
+	    height: 100%;
+	    width: 100%;
+	    background: rgb(0 0 0 / 50%);
+	    border-radius: 16px;
+	    backdrop-filter: blur(5px);
+	    -webkit-backdrop-filter: blur(5px);
+	    position: fixed;
+	    top: 0px;
+	    bottom: 0px;
+	    left: 0px;
+	    right: 0px;
+	    z-index: 1;
+	}
+	header .navbar-toggler {
+        padding: 0px;
+        border: 0px;
+        outline: 0px !important;
+    }
+    .collapse:not(.show) {
+	    display: inline;
+	}
+	.h--center {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        background: linear-gradient(0deg, rgba(15, 104, 122, 0.05), rgba(15, 104, 122, 0.05)), linear-gradient(0deg, #001112, #001112), #000000;
+        max-width: 280px;
+        width: 280px;
+        padding: 15px 15px;
+        z-index: 99;
+        transition: all 0.3s;
+        transform: translateX(-280px);
+    }
+    body.show .h--center {
+    	transform: translateX(0px);
+    }
+	header .navbar-nav .nav-item,
+	.navbar .navbar-nav {
+	    margin: 0px 0px 15px;
+	}
+	header .navbar-nav .nav-item:last-child,
+	.navbar .navbar-nav:last-child {
+		margin-bottom: 0px;
+	}
+	header .navbar-nav .nav-item > .nav-link {
+	    font-size: 16px;
+	}
+	.responsive-btn {
+	    position: absolute;
+	    bottom: 15px;
+	    left: 0px;
+	    right: 0px;
+	    padding: 0px 15px;
+	}
+	.re-header {
+	    border-bottom: 1px solid rgb(240 242 250 / 24%);
+	    padding-bottom: 15px;
+	    margin-bottom: 25px;
+	}
+	.responsive-btn .btn.btn-primary {
+	    width: 100%;
+	    padding: 14px 14px;
+	}
+	.re-header > .logo img {
+	    max-width: 120px;
+	}
+	.team-main {
+	    display: block !important;
+	}
+	.team-main {
+	    flex-wrap: wrap;
+	}
+	.team-card {
+        width: auto !important;
+        background: #000E0F;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 15px;
+    }
+	.team-card .team-media,
+	.team-card.hover .team-media {
+		display: none;
+	}
+	.team-card > .team-text {
+	    position: static;
+	    width: auto;
+	    height: auto;
+	    padding: 0px;
+	    opacity: 1;
+	    visibility: visible;
+	}
+	.team-info > p {
+	    font-size: 18px;
+	}
+	.team-text > .team-info {
+	    height: auto;
+	    margin-bottom: 30px;
+	}
+	.author-text > h3 {
+	    font-size: 16px;
+	}
+	.author-text > p {
+	    font-size: 14px;
+	}
+	.team-main .owl-nav,
+	.team-main .owl-dots {
+	    display: none;
+	}
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.page-padding {
+	    padding: 50px 0px;
+	}
+	.btn.btn-primary {
+	    padding: 14px 24px;
+	}
+	.responsive-btn {
+	    display: none;
+	}
+	.h--right {
+	    display: flex;
+	    align-items: center;
+	    gap: 16px;
+	}
+	.navbar-nav.me-auto.nab-bottom {
+	    display: none;
+	}
+	header .navbar-nav .nav-item, 
+	.h--right ul > li {
+	    margin-right: 25px;
+	}
+	header .navbar-nav .nav-item > .nav-link, 
+	.h--right ul > li > a {
+	    font-size: 15px;
+	}
+	.hero-text h1 {
+	    font-size: 48px;
+	}
+	.hero-text > p,
+	.hero-text .hero-rate {
+		font-size: 18px;
+	}
+	.hiring-software .page-title h2,
+	.page-title > h2,
+	.hiring-title h2 {
+	    font-size: 38px;
+	}
+	.hiring-text h2 {
+	    font-size: 28px;
+	}
+	.hiring-text > p,
+	.hiring-title p,
+	.page-title > p {
+	    font-size: 16px;
+	}
+	.hiring-text > ul > li,
+	.faq-box-list .content > p {
+		font-size: 14px;
+	}
+	.hiring-main {
+	    padding: 40px 40px;
+	}
+	.hiring-box .hiring-media {
+	    max-width: 300px;
+	}
+	.hiring-box .hiring-text {
+	    max-width: 260px;
+	}
+	.software-main .hiring-box {
+	    margin-bottom: 50px;
+	}
+	.statstic-card {
+	    gap: 20px;
+	}
+	.statstic-card > .statstic-box {
+	    width: 33.33%;
+	}
+	.statstic-box > p {
+	    font-size: 18px;
+	}
+	.statstic-box > h3 {
+	    font-size: 28px;
+	}
+	.footer-copyright {
+	    padding: 30px 0px;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+	.team-card {
+	    width: 180px;
+	    height: auto;
+	}
+	.team-card.hover .team-media {
+		max-width: 122px;
+	}
+	.team-info > p {
+	    font-size: 13px;
+	}
+	.team-card > .team-text {
+	    left: 150px;
+	}
+	.team-text > .team-info {
+	    height: calc(100% - 76px);
+	}
+	.team-author .gap-16 {
+	    margin-bottom: 8px;
+	}
+	.author-text > h3 {
+		font-size: 16px;
+	}
+	.author-text > p {
+	    font-size: 14px;
+	}
+	.team-author .ratting > img {
+	    max-width: 100px;
+	}
+	.author-media > img {
+	    max-width: 40px;
+	}
+}
+@media screen and (max-width: 1399px) and (min-width: 992px){
+	.page-padding {
+	    padding: 50px 0px;
+	}
+	header {
+	    padding: 20px 0px 0px;
+	}
+	header .navbar-nav .nav-item, 
+	.h--right ul > li {
+	    margin-right: 22px;
+	}
+	header .navbar-nav .nav-item > .nav-link, 
+	.h--right ul > li > a {
+	    font-size: 15px;
+	}
+	.hero-text h1 {
+	    font-size: 52px;
+	}	
+	.hero-text > p,
+	.hero-text .hero-rate {
+	    font-size: 18px;
+	}
+	.hiring-software .page-title h2,
+	.page-title > h2,
+	.hiring-title h2 {
+	    font-size: 38px;
+	}
+	.hiring-text h2 {
+	    font-size: 32px;
+	}
+	.hiring-text > p,
+	.faq-box-list .content > p {
+	    font-size: 16px;
+	}
+	.software-main .hiring-box {
+	    gap: 30px;
+	}
+	.hiring-box .hiring-text {
+	    max-width: 440px;
+	}
+	.statstic-box > p {
+	    font-size: 18px;
+	}
+	.statstic-box > h3 {
+	    font-size: 38px;
+	}
+}
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+	.team-card.hover {
+	    width: 454px;
+	}
+	.team-info > p {
+		font-size: 18px;
+	}	
+	.author-text > h3 {
+	    font-size: 18px;
+	}
+	.author-text > p {
+	    font-size: 12px;
+	}
+}
+@media screen and (max-width: 1799px) and (min-width: 1400px){
+	.hero-text h1 {
+	    font-size: 58px;
+	}
+	.hiring-software .page-title h2 {
+		font-size: 38px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.re-header,
+	.navbar-nav.nab-bottom,
+	.responsive-btn,
+	.navbar-toggler {
+		display: none !important;
+	}
+}
