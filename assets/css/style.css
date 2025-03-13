@@ -24,7 +24,8 @@ a {
     border-radius: 100%;
 }
 .page-padding {
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
+    padding: 50px 0px;
 }
 .mb-16 {
     margin-bottom: 16px;
