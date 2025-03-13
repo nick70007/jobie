@@ -236,12 +236,8 @@
 	    font-size: 16px;
 	}
 	.responsive-btn {
-	    position: fixed;
-	    bottom: 15px;
-	    left: 0px;
-	    right: 0px;
-	    padding: 0px 15px;
-	}
+        margin-top: 20px;
+    }
 	body.show .h--right {
 	    filter: blur(11px);
 	}
