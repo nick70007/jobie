@@ -54,6 +54,8 @@
 	}
 	.hiring-box .hiring-media {
 	    order: 1;
+	    width: 100%;
+	    margin: 0px auto;
 	}
 	.hiring-box .hiring-text {
 	    order: 2;
@@ -76,16 +78,65 @@
 	.statstic-box > h3 {
 	    font-size: 32px;
 	}
+	.hiring-media > .hm-box {
+        width: auto;
+        height: auto;
+    }
+    .hm-box.js-second {
+	    padding-top: 10px;
+	}
+    .hiring-media > .hm-box::after {
+		background-size: 180px;
+	}
+    .hm-box > img {
+	    padding: 0px 10px;
+	}
+	/*.hiring-media > .hm-box::after {
+		background-size: 180px;
+	}
+	.hiring-media > .hm-box.box1 > img {
+	    max-width: 218px;
+	}
+	.hiring-media > .hm-box.box2 {
+	    padding-top: 20px;
+	}
+	.hiring-media > .hm-box.box2 > img {
+        max-width: 204px;
+    }
+    .hiring-media > .hm-box.box3 {
+	    padding: 20px 0px 0px 10px;
+	}
+	.hiring-media > .hm-box.box3 > img {
+	    max-width: 216px;
+	}
+	.js-second.h-box1 > img {
+	    max-width: 185px;
+	}
+	.js-second.h-box2 > img {
+		max-width: 165px;
+	}
+	.js-second.h-box3 > img {
+        max-width: 215px;
+    }*/
 	.footer-copyright {
 	    padding: 30px 0px;
 	}
 	.f-logo img {
 	    max-width: 100px;
 	}
-	.hiring-software,
 	.statstic,
 	.team {
 	    padding-bottom: 0px;
+	}
+	.f-main {
+	    gap: 35px;
+	    justify-content: space-between;
+	}
+	.f-main > .contact-btn {
+		position: static;
+	}
+	.f-main > .contact-btn > .btn.btn-secondary {
+	    padding: 14px 25px;
 	}
 }
 @media screen and (max-width: 575px){
@@ -174,8 +225,30 @@
 	.hero-form .btn-secondary {
 	    margin: 0px auto;
 	}
+	.h-timer > #countDown {
+		gap: 10px;
+	}
+	.c-timer > span {
+	    width: 65px;
+	    height: 65px;
+	    font-size: 30px;
+	    margin-bottom: 12px;
+	}
+	.c-timer {
+	    font-size: 14px;
+	}
 	.f-main {
 	    gap: 30px;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 480px) {
+	.h-timer > #countDown {
+	    gap: 15px;
+	}
+	.c-timer > span {
+	    width: 90px;
+	    height: 90px;
+	    font-size: 40px;
 	}
 }
 @media screen and (max-width: 991px) {
@@ -198,7 +271,7 @@
 	    bottom: 0px;
 	    left: 0px;
 	    right: 0px;
-	    z-index: 999;
+	    z-index: 1;
 	}
 	header .navbar-toggler {
         padding: 0px;
@@ -237,10 +310,8 @@
 	}
 	.responsive-btn {
         margin-top: 20px;
+        display: inline-block;
     }
-	body.show .h--right {
-	    filter: blur(11px);
-	}
 	.re-header {
 	    border-bottom: 1px solid rgb(240 242 250 / 24%);
 	    padding-bottom: 15px;
@@ -252,6 +323,9 @@
 	}
 	.re-header > .logo img {
 	    max-width: 120px;
+	}
+	.hiring-text .page-btn {
+	    margin-top: 30px;
 	}
 	.team-main {
 	    display: block !important;
@@ -328,13 +402,21 @@
 	.hero-text .hero-rate {
 		font-size: 18px;
 	}
+	.h-timer > #countDown {
+		gap: 15px;
+	}
+	.c-timer > span {
+        width: 110px;
+        height: 110px;
+        font-size: 48px;
+    }
 	.hiring-software .page-title h2,
 	.page-title > h2,
 	.hiring-title h2 {
 	    font-size: 38px;
 	}
 	.hiring-text h2 {
-	    font-size: 28px;
+	    font-size: 24px;
 	}
 	.hiring-text > p,
 	.hiring-title p,
@@ -369,6 +451,38 @@
 	.statstic-box > h3 {
 	    font-size: 28px;
 	}
+	.hiring-media > .hm-box {
+	    width: 300px;
+	    height: 263px;
+	}
+	.hiring-media > .hm-box::after {
+		background-size: 180px;
+	}
+	.hiring-media > .hm-box.box1 > img {
+	    max-width: 264px;
+	}
+	.hiring-media > .hm-box.box2 {
+	    padding-top: 30px;
+	}
+	.hiring-media > .hm-box.box2 > img {
+	    max-width: 238px;
+	}
+	.hiring-media > .hm-box.box3 {
+        padding: 30px 0px 0px 15px;
+    }
+	.hiring-media > .hm-box.box3 > img {
+        max-width: 254px;
+    }
+    .js-second.h-box1 > img {
+	    max-width: 230px;
+	}
+	.js-second.h-box2 > img {
+		max-width: 200px;
+	}
+	.js-second.h-box3 > img {
+        max-width: 260px;
+    }
+
 	.footer-copyright {
 	    padding: 30px 0px;
 	}
@@ -405,6 +519,34 @@
 	.author-media > img {
 	    max-width: 40px;
 	}
+	.hiring-media > .hm-box {
+        width: 390px;
+        height: 342px;
+    }
+    .hiring-media > .hm-box::after {
+		background-size: 250px;
+	}
+	.hiring-media > .hm-box.box1 > img {
+        max-width: 350px;
+    }
+    .hiring-media > .hm-box.box2 > img {
+        max-width: 300px;
+    }
+    .hiring-media > .hm-box.box3 {
+	    padding: 65px 0px 0px 30px;
+	}
+    .hiring-media > .hm-box.box3 > img {
+        max-width: 300px;
+    }
+    .js-second.h-box1 > img {
+	    max-width: 280px;
+	}
+	.js-second.h-box2 > img {
+		max-width: 250px;
+	}
+	.js-second.h-box3 > img {
+        max-width: 320px;
+    }
 }
 @media screen and (max-width: 1399px) and (min-width: 992px){
 	.page-padding {
