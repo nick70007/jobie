@@ -624,4 +624,13 @@
 	.navbar-toggler {
 		display: none !important;
 	}
+	.h--main > div {
+	    width: 33.33%;
+	}
+	.navbar .navbar-nav {
+	    margin: 0px auto;
+	}
+	.h--right > ul {
+	    justify-content: end;
+	}
 }
